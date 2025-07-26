@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "AI_m_yours",
+    "slug": "AI_m_yours",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Cette application a besoin d'utiliser la caméra.",
+        "NSPhotoLibraryUsageDescription": "Cette application a besoin d'accéder à votre galerie de photos.",
+        "NSPhotoLibraryAddUsageDescription": "Cette application a besoin d'enregistrer des images dans votre galerie."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
